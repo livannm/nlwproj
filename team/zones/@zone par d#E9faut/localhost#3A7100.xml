@@ -1,0 +1,33 @@
+<lg-host browserBasedSupport="true" citrixSupport="false"
+    hostname="localhost:7100" loadWeight="1" sapSupport="false"
+    standalone="false" supportWANEmulation="false"
+    uid="26852024-1b53-4bf8-8c2f-d963ae2fc834" version="2026.1.0;build=20260331-15">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="lo" enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="localhost">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1%lo">
+            <ip value="0:0:0:0:0:0:0:1%lo"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="wlp0s20f3" enabled="false"
+        isLoopBack="false" name="wlp0s20f3">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="tri-cnd2280v65.home">
+            <ip value="192.168.1.17"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2a01:cb1c:344:1100:3b9:957d:15fd:ace4%wlp0s20f3">
+            <ip value="2a01:cb1c:344:1100:3b9:957d:15fd:ace4%wlp0s20f3"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2a01:cb1c:344:1100:5ce2:962e:ba7c:7104%wlp0s20f3">
+            <ip value="2a01:cb1c:344:1100:5ce2:962e:ba7c:7104%wlp0s20f3"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:3322:e74d:7ce0:9745%wlp0s20f3">
+            <ip value="fe80:0:0:0:3322:e74d:7ce0:9745%wlp0s20f3"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>
