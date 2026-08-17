@@ -1,0 +1,15 @@
+<switch-container condition="" name="Branche 1" uid="6145913a-1fac-49ef-97f1-c64d32357b4f">
+    <description>Je suis sur la branche 1 maintenant</description>
+    <case-statement case-break="true"
+        case-uid="12eb73f3-d278-4a31-9e49-b9558c64a05a" case-value=""
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Eléments exécutés lorsque la valeur du Case est égale à celle du Switch.</description>
+    </case-statement>
+    <default-statement element-number="1" execution-type="0"
+        pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+        pacingValue="0" slaProfileEnabled="false" weightsEnabled="false">
+        <description>Eléments exécutés par défaut lorsqu'aucune valeur de Case n'est égale à celle du Switch.</description>
+    </default-statement>
+</switch-container>
